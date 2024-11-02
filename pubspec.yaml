@@ -10,6 +10,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-# Add this section for command-line entry points
+# Update this section for command-line entry points
 executables:
-  gen: bin/gen.dart
+  gen: gen # This line now refers to the command directly, assuming bin/gen.dart

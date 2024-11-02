@@ -1,0 +1,15 @@
+name: gen
+description: A command-line tool for multiple commands in Flutter.
+publish_to: "none" # Prevents publishing to pub.dev
+version: 0.0.1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# Add this section for command-line entry points
+executables:
+  gen: bin/gen.dart

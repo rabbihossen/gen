@@ -4,7 +4,7 @@ import 'dart:io';
 void main(List<String> arguments) {
   if (arguments.isNotEmpty) {
     switch (arguments[0]) {
-      case 'auth-api-init':
+      case 'setup app':
         print("Auth API process done");
         break;
       case 'multi-language':

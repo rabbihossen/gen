@@ -4,7 +4,7 @@ import 'dart:io';
 void main(List<String> arguments) {
   if (arguments.isNotEmpty) {
     switch (arguments[0]) {
-      case 'setup app':
+      case 'setup-app':
         print("Auth API process done");
         break;
       case 'multi-language':
@@ -16,11 +16,11 @@ void main(List<String> arguments) {
         break;
       default:
         print(
-            "Unknown command. Available commands: auth-api-init, multi-language, another-command.");
+            "Unknown command. Available commands: setup app, multi-language, another-command.");
     }
   } else {
     print(
-        "No command provided. Available commands: auth-api-init, multi-language, another-command.");
+        "No command provided. Available commands: setup app, multi-language, another-command.");
   }
 }
 
